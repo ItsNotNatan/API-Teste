@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-const sequelize = new Sequelize('postgres://fastparkingdb_user:GMd30d1dDUJg1bMgomf8uU6xSLj2yR4X@dpg-cl53fo472pts739qnll0-a/fastparkingdb', {
+const sequelize = new Sequelize('postgres://bd_c2zd_user:zsW8mVQZHeaXhMuDWzQEv5wIpoIVyZOx@dpg-cln5nnhr6k8c73abotn0-a/bd_c2zd', {
   dialect: 'postgres',
 });
 
