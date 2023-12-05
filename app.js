@@ -50,7 +50,9 @@ app.post('/cadastro-cliente', async (req, res) => {
       numero: req.body.numero,
       complemento: req.body.complemento,
       senha: req.body.senha, 
-      confirmacao: req.body.confirmacao
+      confirmacao: req.body.confirmacao,
+      NomeEmpresa: req.body.NomeEmpresa,
+      NVagas: req.body.NVagas
     });
     res.status(201).json(cliente);
   } catch (error) {
